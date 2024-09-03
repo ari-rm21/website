@@ -15,7 +15,7 @@ export class HomeComponent implements AfterViewInit {
     const tl = gsap.timeline(); 
     tl.to(".welcome-message", {
       duration: 6, 
-      text: "Hello Everyone! <br> I'm Ariana Rodríguez, a Web Developer",
+      text: "Hello Everyone! <br> I'm Ariana Rodríguez, a Web Developer.",
       ease: "power1.inOut"
     })
     .to(".social-icon", {

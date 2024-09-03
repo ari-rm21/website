@@ -4,16 +4,22 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,RouterLink],
+  imports: [RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'ARM PORTFOLIO';
   menuOpen: boolean = false;
 
-  toggleMenu() {
+  toggleMenu(event: Event) {
     this.menuOpen = !this.menuOpen;
-    
+    this.setActiveLink(event);
+  }
+
+  setActiveLink(event: Event) {
+    const links = document.querySelectorAll('.navegation__nav-links a');
+    links.forEach(link => link.classList.remove('active-link'));
+    (event.target as HTMLElement).classList.add('active-link');
   }
 }

@@ -1,4 +1,11 @@
 
+
+.showOnMobile{
+  display: none;
+  @media (max-width: 768px) {
+    display: inline;
+  }
+}
 .navegation {
   display: flex;
   justify-content: space-between;
@@ -51,10 +58,10 @@
       
       }
 
-      &:hover::after {
-        transform: scaleX(1);
-        transform-origin: left;
-      }
+      // &:hover::after {
+      //   transform: scaleX(1);
+      //   transform-origin: left;
+      // }
     }
   }
   &__nav-icon {

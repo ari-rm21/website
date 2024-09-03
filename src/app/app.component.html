@@ -2,7 +2,7 @@
     <nav class="navegation">
         <div class="navegation__nav-icon" (click)="toggleMenu()">
                {{title}}
-           
+               <i class="bi bi-list showOnMobile"></i>
         </div>
         <ul [class.show]="menuOpen" class="navegation__nav-links">
             <li><a routerLink='/home'>Home</a></li>

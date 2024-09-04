@@ -1,0 +1,21 @@
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #3e3e3e;
+}
+
+.footer_wrapper{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+
+}
+
+.footer_wrapper a{
+    text-decoration: none;
+    color: #fff;
+    
+}

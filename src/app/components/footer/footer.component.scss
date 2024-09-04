@@ -2,7 +2,6 @@ footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: #3e3e3e;
 }
 
 .footer_wrapper{
@@ -10,12 +9,23 @@ footer{
     display: flex;
     justify-content: center;
     gap: 50px;
-    color: #fff;
+    color: #C0C0C0;
+    font-size: 16px;
+
+    @media (max-width: 768px) {
+        text-align: center;
+        flex-direction: column;
+        gap: 0;
+        position: relative;
+        left: -35px;
+  
+  
+      }
 
 }
 
 .footer_wrapper a{
     text-decoration: none;
-    color: #fff;
+    color: #C0C0C0;
     
 }

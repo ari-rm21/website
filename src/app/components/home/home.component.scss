@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 200px 0px;
+    padding: 250px 0px 50px 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -53,6 +53,7 @@
 .socialIcons_container{
   display: flex;
   gap: 16px;
+  margin: 0 0 30px 0;
 }
   .social-icon {
     opacity: 0;

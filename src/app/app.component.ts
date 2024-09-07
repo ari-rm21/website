@@ -16,7 +16,12 @@ export class AppComponent {
   toggleMenu(event: Event) {
     this.menuOpen = !this.menuOpen;
     this.setActiveLink(event);
-  }
+    let menu = document.querySelectorAll('.navegation__nav-links');
+    menu.forEach(element => {
+        (element as HTMLElement).style.height = '100%';
+    });
+    console.log(menu);
+}
 
   setActiveLink(event: Event) {
     const links = document.querySelectorAll('.navegation__nav-links a');

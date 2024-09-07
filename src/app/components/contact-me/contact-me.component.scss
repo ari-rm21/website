@@ -1,0 +1,25 @@
+.form_container{
+    color: white;
+    margin: 210px 0;
+    font-family: "Roboto-bold";
+    text-align: center;
+  
+    &__inputs{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 20px auto;
+
+    }
+
+    &__inputs label{
+        margin:15px 0;
+    }
+}
+*:focus {
+    outline: none;
+}
+.messageInput{
+    height: 150px;
+}

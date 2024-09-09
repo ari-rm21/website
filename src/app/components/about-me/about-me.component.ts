@@ -1,7 +1,7 @@
 import { AfterViewInit, Component } from '@angular/core';
 
 @Component({
-  selector: 'div[app-about-me]',
+  selector: 'app-about-me',
   standalone: true,
   imports: [],
   templateUrl: './about-me.component.html',

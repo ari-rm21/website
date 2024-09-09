@@ -1,8 +1,14 @@
 .wrapper {
-    padding: 250px 0px 50px 0px;
+    height: 1005px;
+    padding: 310px 0px 100px 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    @media (max-width: 768px) {
+      padding: 250px 0px 50px 0px;
+      height: 700px;
+
+  }
 
   
     &__img_container {

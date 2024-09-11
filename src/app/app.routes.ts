@@ -1,4 +1,5 @@
-import { Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
@@ -11,3 +12,9 @@ export const routes: Routes = [
     {path:'contact-me' , component: ContactMeComponent},
     {path:'**' , component: HomeComponent},
 ];
+
+@NgModule({
+    imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled' })],
+    exports: [RouterModule]
+  })
+  export class AppRoutingModule {}

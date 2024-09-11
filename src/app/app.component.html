@@ -5,10 +5,10 @@
                <i class="bi bi-list showOnMobile"></i>
         </div>
         <ul [class.show]="menuOpen" class="navegation__nav-links">
-            <li><a routerLink='/home' (click)="toggleMenu($event)">Home</a></li>
-            <li><a routerLink='/about-me' (click)="toggleMenu($event)">About Me</a></li>
-            <li><a routerLink='/projects' (click)="toggleMenu($event)">Projects</a></li>
-            <li><a routerLink='/contact-me' (click)="toggleMenu($event)">Contact Me</a></li>
+            <li><a [routerLink]="[]" fragment="home-section" (click)="toggleMenu($event)">Home</a></li>
+            <li><a [routerLink]="[]" fragment="about-section" (click)="toggleMenu($event)">About Me</a></li>
+            <li><a [routerLink]="[]" fragment="skills-section" (click)="toggleMenu($event)">Skills</a></li>
+            <li><a [routerLink]="[]" fragment="project-section" (click)="toggleMenu($event)">Projects</a></li>
         </ul>
     </nav>
 </header>
@@ -16,5 +16,5 @@
 
 <app-home></app-home>
 <app-about-me></app-about-me>
-<app-projects></app-projects>
+<!-- <app-projects></app-projects> -->
 <app-footer></app-footer>

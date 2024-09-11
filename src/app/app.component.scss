@@ -7,13 +7,14 @@
 
 .navegation {
   position: fixed;
+  z-index: 2;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 60px 90px;
-  background-color: #3e3e3e;
+  background-color: #282c30;
   @media (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
@@ -46,6 +47,7 @@
       padding: 5px 0;
       transition: color 0.3s ease;
       position: relative;
+      font-size: 20px;
 
       &::after {
         content: "";
@@ -61,7 +63,7 @@
       }
 
       &:hover {
-        color: #c06500;
+        color: #ff7f00;
       }
 
       &:hover::after {

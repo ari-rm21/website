@@ -112,7 +112,7 @@
   background-color: #212529;
   padding: 100px;
   width: 100%;
-  height: 700px;
+
   @media (max-width: 768px) {
     padding: 100px 0px;
   }
@@ -123,10 +123,11 @@
     color: #adb5bd;
     font-size: 2.5rem;
     line-height: 1.2;
-    margin-bottom: 9.6rem;
+    margin-bottom: 5rem;
     letter-spacing: -0.5px;
     @media (max-width: 768px) {
       font-size: 2.1rem;
+      margin-bottom: 1.5rem;
     }
   }
 }

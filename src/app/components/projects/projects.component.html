@@ -1,4 +1,7 @@
-<section id="project-section">
-    <p>projects works!</p>
+<div class="project-section">
+     <h2 class="title">My recent projects</h2>
+        <div class="accordion-main">
+            <div *ngFor="let list of data"><app-child [data]="list" ></app-child></div>
+        </div>
+</div>
 
-</section>

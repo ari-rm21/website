@@ -1,0 +1,35 @@
+
+.child-wrapper{
+    padding-bottom: 20px;
+}
+
+
+.child-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    background-color: #212529;
+    font-weight: bold;
+    padding: 2%;
+    font-size: 1.4rem;
+    
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
+
+}
+
+.child-body{
+    background-color: #212529;
+    color: white;
+    font-weight: bold;
+    padding: 2%;
+    font-size: 1rem;
+}
+
+.links{
+    text-decoration: none!important;
+    color: white!important;
+}

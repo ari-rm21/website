@@ -1,0 +1,9 @@
+<div>
+    <div class="child-wrapper">
+        <div class="child-header" (click)="handleClick()">
+            <div>{{data.title}}</div>
+            <div>{{isTrue ? '-' : '+'}}</div>
+        </div>
+        <div class="child-body" *ngIf="isTrue" [innerHTML]="data.description" ></div>
+    </div>
+</div>

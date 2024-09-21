@@ -15,6 +15,21 @@ import { ViewportScroller } from '@angular/common';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+
+  data = [
+    {
+      title: 'Project 1', description: 'description 1'
+    },
+    {
+      title: 'Project 2', description: 'description 2'
+    },
+    {
+      title: 'Project 3', description: 'description 3'
+    }
+  ]
+
+
+
   constructor(
     private route: ActivatedRoute,
     private viewportScroller: ViewportScroller

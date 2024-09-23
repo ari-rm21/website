@@ -41,7 +41,7 @@ export class AppComponent implements OnInit {
       }
     });
   }
-  title = 'ARM PORTFOLIO';
+  title = 'ARM WEBSITE';
   menuOpen: boolean = false;
 
   toggleMenu(event: Event) {

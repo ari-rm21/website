@@ -39,7 +39,7 @@ export class ProjectsComponent {
   data = [
     {
       title: 'Email Development',
-      description: 'In this section, I showcase my experience developing responsive emails using HTML5 and CSS, ensuring that each design looks and functions correctly across a wide range of devices and email clients. My projects emphasize following best practices for accessibility, optimization for different inboxes, and a user-centered approach. Additionally, I work closely with design teams to ensure that creative assets are faithfully implemented, with clean and efficient code that maximizes deliverability rates and user engagement. <a class="links" href="https://www.google.com" target="_blank">View&nbsp;More</a>'
+      description: 'In this section, I showcase my experience developing responsive emails using HTML5 and CSS, ensuring that each design looks and functions correctly across a wide range of devices and email clients. My projects emphasize following best practices for accessibility, optimization for different inboxes, and a user-centered approach. Additionally, I work closely with design teams to ensure that creative assets are faithfully implemented, with clean and efficient code that maximizes deliverability rates and user engagement. <a class="links" href="https://ari-rm21.github.io/emails-portfolio/">View&nbsp;More</a>'
     },
     {
       title: 'Banner Animations',

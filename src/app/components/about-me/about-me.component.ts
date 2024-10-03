@@ -35,7 +35,7 @@ export class AboutMeComponent implements AfterViewInit, OnInit {
       opacity:1
     });
     tl.to(".aboutMe_wrapper__bio_wrapper", {
-      duration: 2.5,
+      duration: 1,
       ease: "sine.out",
       opacity:1
     });

@@ -1,6 +1,6 @@
 .wrapper {
     height: 1005px;
-    padding: 310px 0px 100px 0px;
+    padding: 250px 0px 100px 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,8 +23,8 @@
       align-items: center;
       justify-content: center;
       border-radius: 50%;
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
       overflow: hidden; 
       @media (max-width: 768px) {
         width: 195px;
@@ -53,7 +53,7 @@
   }
   
   .welcome-message {
-    padding: 30px 0px;
+    padding: 20px 0px 0px 0px;
     font-size: 26px;
     font-weight: bold;
     color: #adb5bd;

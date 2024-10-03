@@ -43,11 +43,11 @@ export class ProjectsComponent {
     },
     {
       title: 'Banner Animations',
-      description: 'In this section, I showcase my banner animation projects, where I blend creativity and technique to create impactful visual experiences. Utilizing technologies like CSS and JavaScript, I design smooth animations that not only capture user attention but also enhance interactivity and the overall experience. My banners are responsive and optimized for various platforms, ensuring they maintain their visual appeal across devices. Each project reflects my commitment to innovation and user-centered design, transforming ideas into dynamic animations that capture the essence of the brand. <a class="links" href="https://www.google.com" target="_blank">View&nbsp;More</a>'
+      description: 'In this section, I showcase my banner animation projects, where I blend creativity and technique to create impactful visual experiences. Utilizing technologies like CSS and JavaScript, please see the example below. <a class="links" href="https://bannerpreview-1.netlify.app/" target="_blank">View&nbsp;More</a>'
     },
     {
-      title: 'Websites and Apps',
-      description: 'In this section, I highlight my work on websites and applications, showcasing my ability to create user-friendly and visually appealing digital solutions. Leveraging modern frameworks and technologies, I design and develop responsive web applications that prioritize performance and accessibility. Each project emphasizes a seamless user experience, combining intuitive navigation with engaging designs. My focus is on delivering high-quality products that meet client objectives while adapting to the evolving needs of users. From concept to deployment, I am dedicated to bringing ideas to life through innovative web and app solutions.  <a class="links" href="https://www.google.com" target="_blank">View&nbsp;More</a>'
+      title: 'Website Example',
+      description: 'In this section, I highlight my work on websites, showcasing my ability to create user-friendly and visually appealing digital solutions. The example below was building as a part of course using HTML5 and CSS3.  <a class="links" href="https://ari-rm21.github.io/Omnifood_exampleWebsite/" target="_blank">View&nbsp;More</a>'
     }
   ];
   

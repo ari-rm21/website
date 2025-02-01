@@ -43,7 +43,7 @@ export class ProjectsComponent {
     },
     {
       title: 'Banner Animations',
-      description: 'In this section, I showcase my banner animation projects, where I blend creativity and technique to create impactful visual experiences. Utilizing technologies like CSS and JavaScript, please see the example below. <a class="links" href="https://bannerpreview-1.netlify.app/" target="_blank">View&nbsp;More</a>'
+      description: 'In this section, I showcase my banner animation projects, where I blend creativity and technique to create impactful visual experiences. Utilizing technologies like CSS and JavaScript, please see the example below. <a class="links" href="https://ari-rm21.github.io/banners-portfolio/" target="_blank">View&nbsp;More</a>'
     },
     {
       title: 'Website Example',
